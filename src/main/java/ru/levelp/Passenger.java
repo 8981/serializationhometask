@@ -5,9 +5,9 @@ public class Passenger {
     private String name;
     private String numberPassport;
 
-    public  Passenger(String name, String numberPassport) {
-         this.name = name;
-         this.numberPassport = numberPassport;
+    public Passenger(String name, String numberPassport) {
+        this.name = name;
+        this.numberPassport = numberPassport;
     }
 
     public String getName() {

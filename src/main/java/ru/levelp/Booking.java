@@ -1,10 +1,10 @@
 package ru.levelp;
 
-public class Booking  {
+public class Booking {
     private String name;
     private String numberPassport;
 
-    public  Booking(String name, String numberPassport) {
+    public Booking(String name, String numberPassport) {
         this.name = name;
         this.numberPassport = numberPassport;
 

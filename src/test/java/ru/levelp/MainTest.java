@@ -12,9 +12,7 @@ public class MainTest {
     public void passengerToJson() {
         Passenger passenger = new Passenger("john", "123FFC1");
         String result = m.passengerToJson(passenger);
-
     }
-
 
     @Test
     public void passengerFromJson() {

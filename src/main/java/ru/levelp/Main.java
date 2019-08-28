@@ -1,6 +1,5 @@
 package ru.levelp;
 
-
 import com.google.gson.Gson;
 
 public class Main {
@@ -23,6 +22,4 @@ public class Main {
         Gson gson = new Gson();
         return gson.fromJson(json, Booking.class);
     }
-
-
 }

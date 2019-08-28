@@ -7,7 +7,6 @@ public class Booking {
     public Booking(String name, String numberPassport) {
         this.name = name;
         this.numberPassport = numberPassport;
-
     }
 
     public String getName() {
@@ -25,6 +24,4 @@ public class Booking {
     public void setNumberPassport(String numberPassport) {
         this.numberPassport = numberPassport;
     }
-
-
 }

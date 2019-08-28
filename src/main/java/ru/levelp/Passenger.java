@@ -1,6 +1,5 @@
 package ru.levelp;
 
-
 public class Passenger {
     private String name;
     private String numberPassport;
@@ -25,6 +24,4 @@ public class Passenger {
     public void setNumberPassport(String numberPassport) {
         this.numberPassport = numberPassport;
     }
-
-
 }
